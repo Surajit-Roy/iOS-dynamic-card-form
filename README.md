@@ -19,6 +19,7 @@ CAGradientLayer for button styling
 UICollectionView for card management
 UIView Animation for smooth transitions
 
+```
 📂 Project Structure
 📂 CardFlipApp
  ┣ 📂 controller
