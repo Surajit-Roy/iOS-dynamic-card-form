@@ -7,17 +7,19 @@
 
 
 📌 Features
+```
 ✅ Smooth card flip animation when entering the CVV
 ✅ Auto-formatted card number & expiry date validation
 ✅ Mandatory field validation with error messages
 ✅ Gradient-colored Pay button
 ✅ Page scrolling resets card fields & ensures proper front-side visibility
+```
 
 🛠 Technologies Used
-Swift (UIKit)
-CAGradientLayer for button styling
-UICollectionView for card management
-UIView Animation for smooth transitions
+1. Swift (UIKit)
+2. CAGradientLayer for button styling
+3. UICollectionView for card management
+4. UIView Animation for smooth transitions
 
 ```
 📂 Project Structure
