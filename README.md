@@ -48,10 +48,9 @@ UIView Animation for smooth transitions
 4️⃣ Scroll Between Cards → Resets input fields & ensures front visibility
 
 🚀 Installation & Usage
-Clone the repository:
-git clone https://github.com/Surajit-Roy/iOS-dynamic-card-form.git
-Open CardFlipApp.xcodeproj in Xcode
-Run on an iOS Simulator or a physical device
+. Clone the repository:  git clone https://github.com/Surajit-Roy/iOS-dynamic-card-form.git
+. Open CardFlipApp.xcodeproj in Xcode
+. un on an iOS Simulator or a physical device
 
 🎯 To-Do List
  1. Support for SwiftUI
