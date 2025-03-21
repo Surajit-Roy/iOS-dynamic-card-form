@@ -39,6 +39,7 @@ UIView Animation for smooth transitions
  ┃ ┣ 📜 Uitilities.swift
  ┣ 📜 README.md
  ┣ 📜 Info.plist
+```
 
 📖 How It Works
 1️⃣ Enter Card Details → Updates card UI live
@@ -53,8 +54,8 @@ Open CardFlipApp.xcodeproj in Xcode
 Run on an iOS Simulator or a physical device
 
 🎯 To-Do List
- Support for SwiftUI
- Add Apple Pay Integration
- Implement Dark Mode Support
+ 1. Support for SwiftUI
+ 2. Add Apple Pay Integration
+ 3. Implement Dark Mode Support
 
 💡 Have suggestions or improvements? Feel free to contribute! 🚀
