@@ -23,7 +23,7 @@
 
 ```
 📂 Project Structure
-📂 CardFlipApp
+📂 CardFlipAppPOC
  ┣ 📂 controller
  ┃ ┣ 📜 ViewController.swift   # Main logic for card UI & animation
  ┃ ┣ 📜 DebitCardCell.swift   # CollectionView cell with front & back views
@@ -54,7 +54,7 @@
 🚀 Installation & Usage
 ```
 Clone the repository:  git clone https://github.com/Surajit-Roy/iOS-dynamic-card-form.git
-Open CardFlipApp.xcodeproj in Xcode
+Open CardFlipAppPOC.xcodeproj in Xcode
 Run on an iOS Simulator or a physical device
 ```
 
