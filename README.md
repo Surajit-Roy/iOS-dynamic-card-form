@@ -2,7 +2,10 @@
 🚀 A sleek and interactive debit card flip animation in Swift (UIKit) that mimics a real-world card-flipping experience while entering the CVV.
 
 📸 Preview
-<img src="/CardFlipAppPOC/assets/card_flip.gif" width="300" height="700">
+
+<img src="/CardFlipAppPOC/assets/card_flip.gif" width="300" height="600">
+
+
 📌 Features
 ✅ Smooth card flip animation when entering the CVV
 ✅ Auto-formatted card number & expiry date validation
