@@ -42,15 +42,19 @@ UIView Animation for smooth transitions
 ```
 
 📖 How It Works
+```
 1️⃣ Enter Card Details → Updates card UI live
 2️⃣ Tap CVV Field → Card flips to the back side
 3️⃣ Leave CVV Field → Card flips back to the front
 4️⃣ Scroll Between Cards → Resets input fields & ensures front visibility
+```
 
 🚀 Installation & Usage
-. Clone the repository:  git clone https://github.com/Surajit-Roy/iOS-dynamic-card-form.git
-. Open CardFlipApp.xcodeproj in Xcode
-. un on an iOS Simulator or a physical device
+```
+Clone the repository:  git clone https://github.com/Surajit-Roy/iOS-dynamic-card-form.git
+Open CardFlipApp.xcodeproj in Xcode
+Run on an iOS Simulator or a physical device
+```
 
 🎯 To-Do List
  1. Support for SwiftUI
