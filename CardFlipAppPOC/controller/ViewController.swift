@@ -37,6 +37,10 @@ class ViewController: ParentController, UICollectionViewDelegate, UICollectionVi
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
+        tapGesture.cancelsTouchesInView = false
+        view.addGestureRecognizer(tapGesture)
+        
         payBtn.setupGradient(gradientColor: [UIColor.systemBlue.cgColor, UIColor.black.cgColor])
         showCardLayoutBasedOnData()
         hideAllErrorMessages()
@@ -63,6 +67,10 @@ class ViewController: ParentController, UICollectionViewDelegate, UICollectionVi
         
         cvvTextField.addTarget(self, action: #selector(cvvTextFieldDidBeginEditing(_:)), for: .editingDidBegin)
         cvvTextField.addTarget(self, action: #selector(cvvTextFieldDidEndEditing(_:)), for: .editingDidEnd)
+        
+        cardNumberTextField.keyboardType = .numberPad
+        expiryDateTextField.keyboardType = .numberPad
+        cvvTextField.keyboardType = .numberPad
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -104,6 +112,10 @@ class ViewController: ParentController, UICollectionViewDelegate, UICollectionVi
                 cards[pageIndex] = DebitCardModel(cardHolder: "", cardNumber: "", expiry: "", cvv: "", flipState: false)
             }
         }
+    }
+    
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
     }
     
     @objc func textFieldDidChange(_ textField: UITextField) {
